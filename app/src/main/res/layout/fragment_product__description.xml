@@ -8,17 +8,7 @@
     android:background="@color/white">
 
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:background="@color/white"
-        android:src="@drawable/ic_baseline_menu_24"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
-        app:layout_constraintHorizontal_bias="0.103"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -139,7 +129,6 @@
                 android:layout_marginTop="64dp"
                 android:layout_marginEnd="40dp"
                 android:background="@drawable/ic_share"
-
                 android:text="Share"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/photo" />
@@ -165,21 +154,20 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/thePriceOfProduct" />
 
+            <Button
+                android:id="@+id/addToCartButton"
+                android:layout_width="99dp"
+                android:layout_height="35dp"
+                android:layout_margin="16dp"
+                android:background="@drawable/add_cart"
+                android:text="Add to cart"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/share" />
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </ScrollView>
-
-    <Button
-        android:id="@+id/addToCartButton"
-        android:layout_width="214dp"
-        android:layout_height="61dp"
-        android:layout_margin="16dp"
-        android:background="@drawable/add_cart"
-        android:text="Add to cart"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

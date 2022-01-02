@@ -1,13 +1,19 @@
 package com.tensioner.application
 
+import android.app.Dialog
+import android.content.Context
+import android.content.SharedPreferences
+import android.media.session.MediaSession
+import android.os.Build.ID
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
-import kotlinx.android.synthetic.main.fragment_home_fragment.*
+import android.widget.TextView
+import android.widget.Toast
+import kotlinx.android.synthetic.main.fragment_setting_.*
+import java.sql.Types.NULL
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -16,14 +22,14 @@ import kotlinx.android.synthetic.main.fragment_home_fragment.*
 
 /**
  * A simple [Fragment] subclass.
- * Use the [setting_Fragment.newInstance] factory method to
+ * Use the [SettingFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class setting_Fragment : Fragment() {
+class SettingFragment : Fragment() {
     // TODO: Rename and change types of parameters
     //private var param1: String? = null
     //private var param2: String? = null
-    private lateinit var blogAdapter: BlogRecyclerAdapter
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,7 +51,32 @@ class setting_Fragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
 
-        return inflater.inflate(R.layout.fragment_setting_,container, false)
+        val view : View = inflater.inflate(R.layout.fragment_setting_,container, false)
+        var tok : View = view.findViewById(R.id.token)
+        tok.setOnClickListener{
+            var dialog = activity?.let { it1 -> Dialog(it1) }
+            dialog!!.setCancelable(true)
+            dialog!!.setContentView(R.layout.token_dialogbox)
+            var tok:TextView = dialog!!.findViewById(R.id.token5)
+
+            val sharedPreferences: SharedPreferences = (activity?.getSharedPreferences(
+              "Token", Context.MODE_PRIVATE) ?: NULL) as SharedPreferences
+
+            val t1 : String? = sharedPreferences.getString("TokenID","")
+            tok.text = t1
+            dialog?.show()
+           // Toast.makeText(activity,"Token",Toast.LENGTH_SHORT).show()
+            // var tok:TextView = view.findViewById(R.id.token1)
+            //val sharedPreferences: SharedPreferences = (activity?.getSharedPreferences(
+             //   "Token", Context.MODE_PRIVATE) ?: NULL) as SharedPreferences
+
+             //val t1 : String? = sharedPreferences.getString("TokenID","")
+             //tok.text = t1
+
+
+        }
+
+        return view
 
 
     }
@@ -63,7 +94,7 @@ class setting_Fragment : Fragment() {
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            setting_Fragment().apply {
+            SettingFragment().apply {
                 arguments = Bundle().apply {
                     //putString(ARG_PARAM1, param1)
                     //putString(ARG_PARAM2, param2)
@@ -72,19 +103,5 @@ class setting_Fragment : Fragment() {
     }
 
 
-    private fun addDataSet(){
-        val data = DataSource.createDataSet()
-        blogAdapter.submitList(data)
-    }
 
-    private fun initRecyclerView(){
-        recycler_view.apply {
-            layoutManager =  LinearLayoutManager(this@setting_Fragment.activity)
-            val topSpacingDecorator = TopSpacingItemDecoration(30)
-            addItemDecoration(topSpacingDecorator)
-            blogAdapter = BlogRecyclerAdapter()
-            adapter = blogAdapter
-
-        }
-    }
 }

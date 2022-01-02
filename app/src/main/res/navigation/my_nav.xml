@@ -3,32 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/my_nav"
-    app:startDestination="@id/setting_Fragment">
+    app:startDestination="@id/afterLoginMain">
     <fragment
-        android:id="@+id/home_fragment"
-        android:name="com.tensioner.application.home_fragment"
-        android:label="fragment_home_fragment"
-        tools:layout="@layout/fragment_home_fragment">
-        <action
-            android:id="@+id/action_home_fragment_to_profile_fregment"
-            app:destination="@id/profile_fregment" />
-    </fragment>
+        android:id="@+id/afterLoginMain"
+        android:name="com.tensioner.application.AfterLoginMain"
+        android:label="fragment_after_login_main"
+        tools:layout="@layout/fragment_after_login_main"/>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.tensioner.application.SettingFragment"
+        android:label="fragment_setting_"
+        tools:layout="@layout/fragment_setting_"/>
     <fragment
         android:id="@+id/profile_fregment"
         android:name="com.tensioner.application.profile_fregment"
         android:label="fragment_profile_fregment"
-        tools:layout="@layout/fragment_profile_fregment">
-        <action
-            android:id="@+id/action_profile_fregment_to_setting_Fragment"
-            app:destination="@id/setting_Fragment" />
-    </fragment>
+        tools:layout="@layout/fragment_profile_fregment"/>
     <fragment
-        android:id="@+id/setting_Fragment"
-        android:name="com.tensioner.application.setting_Fragment"
-        android:label="fragment_setting_"
-        tools:layout="@layout/fragment_setting_">
-        <action
-            android:id="@+id/action_setting_Fragment_to_home_fragment"
-            app:destination="@id/home_fragment" />
-    </fragment>
+        android:id="@+id/news_Fragment"
+        android:name="com.tensioner.application.NewsFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_pdf" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.tensioner.application.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
 </navigation>

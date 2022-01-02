@@ -20,9 +20,9 @@ class DataSource{
             )
             list.add(
                 BlogPost(
-                    "Aloe",
+                    "T-Shirt",
                     "",
-                    "https://images.squarespace-cdn.com/content/v1/5442b6cce4b0cf00d1a3bef2/1585258539322-GQTWDD6EPDSQXX4M0N6U/Aloe-Vera-Seven-Minerals",
+                    "https://cdn.shopify.com/s/files/1/1520/5960/products/T21F201022_SS_Purple_Front_1194x.jpg?v=1630432453",
                     "Natural Product"
                 )
             )
@@ -31,7 +31,7 @@ class DataSource{
                 BlogPost(
                     "Nike Shoes",
                     "",
-                    "https://m.media-amazon.com/images/I/714tiWDYQkL._UX500_.jpg",
+                    "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/3f776b7d85f44fa0927aad990157d615_9366/Clinch-X_Shoes_Blue_EW2464_01_standard.jpg",
                     "Brand New Shoes"
                 )
             )
@@ -105,7 +105,7 @@ class DataSource{
                 BlogPost(
                     "Nike Shoes",
                     "",
-                    "https://m.media-amazon.com/images/I/714tiWDYQkL._UX500_.jpg",
+                    "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/3f776b7d85f44fa0927aad990157d615_9366/Clinch-X_Shoes_Blue_EW2464_01_standard.jpg",
                     "Brand New Shoes"
                 )
             )
@@ -178,7 +178,7 @@ class DataSource{
                 BlogPost(
                     "Nike Shoes",
                     "",
-                    "https://m.media-amazon.com/images/I/714tiWDYQkL._UX500_.jpg",
+                    "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/3f776b7d85f44fa0927aad990157d615_9366/Clinch-X_Shoes_Blue_EW2464_01_standard.jpg",
                     "Brand New Shoes"
                 )
             )
@@ -252,7 +252,7 @@ class DataSource{
                 BlogPost(
                     "Nike Shoes",
                     "",
-                    "https://m.media-amazon.com/images/I/714tiWDYQkL._UX500_.jpg",
+                    "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/3f776b7d85f44fa0927aad990157d615_9366/Clinch-X_Shoes_Blue_EW2464_01_standard.jpg",
                     "Brand New Shoes"
                 )
             )

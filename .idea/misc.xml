@@ -8,40 +8,73 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable-v24/button_circle2.xml" value="0.21614583333333334" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/bttn_bg.xml" value="0.21614583333333334" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/button_circle.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/button_circle1.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/cloud_download.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/credit_card.xml" value="0.11927083333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/help.xml" value="0.11927083333333334" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/home.xml" value="0.1484375" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_baseline_login.xml" value="0.1484375" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.21614583333333334" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_baseline_rate_review_24.xml" value="0.1484375" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_home.xml" value="0.20052083333333334" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_message.xml" value="0.11927083333333334" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_person.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_send.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_share.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_toys.xml" value="0.11927083333333334" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/input_bg.xml" value="0.21614583333333334" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/like.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/likelike.xml" value="0.16510416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/location.xml" value="0.11927083333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/message_box_background.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/news.xml" value="0.14791666666666667" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/red_button.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/review.xml" value="0.11927083333333334" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/drawable/shopping_cart.xml" value="0.21614583333333334" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/activity_after_login.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout-v26/newslayout.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/activity_after_login.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/activity_list_item.xml" value="0.17708333333333334" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/activity_message.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/activity_news_details.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/activity_pdesc.xml" value="0.18" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/activity_register.xml" value="0.2" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/activity_splash_screen.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_after_chat.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_after_login_main.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_after_product_page.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_chat.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_home.xml" value="0.10208333333333333" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_home_fragment.xml" value="0.184375" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_product__description.xml" value="0.1" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_profile_fregment.xml" value="0.15" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_setting_.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_home_fragment.xml" value="0.15819209039548024" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_news.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_pdf.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_product__description.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_profile_fregment.xml" value="0.19595645412130638" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_setting_.xml" value="0.18" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/grid_item.xml" value="0.12092391304347826" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/layout_blog_list_item.xml" value="0.184375" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/list_item.xml" value="0.22" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/my_gridview.xml" value="0.12092391304347826" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/my_listview.xml" value="0.12092391304347826" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/nav_header.xml" value="0.2670807453416149" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/newslayout.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/pdflayout.xml" value="0.18" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/product_desc.xml" value="0.47093023255813954" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/product_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/receive.xml" value="0.33" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/rounded_corner.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/sent.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/test.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/token_dialogbox.xml" value="0.16" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/toolbar.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/userlist.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/layout/userlistlayout.xml" value="0.9" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/menu/botton_menu.xml" value="0.184375" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/menu/chat_menu.xml" value="0.33" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/menu/item_menu.xml" value="0.184375" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/menu/main.xml" value="0.15925925925925927" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/menu/newsmenu.xml" value="0.184375" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/menu/top_menu.xml" value="0.25" />
       </map>
     </option>
@@ -51,5 +84,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.9" />
+      </ProjectState>
+    </option>
   </component>
 </project>

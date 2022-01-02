@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "503762012877",
+    "project_id": "application-b84b7",
+    "storage_bucket": "application-b84b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503762012877:android:42c99ade11163bd99cf784",
+        "android_client_info": {
+          "package_name": "com.tensioner.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503762012877-eni1ppr2ask5fefu27btqbj6lkdtj4if.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdfr1WDbkwC1N4wQ1T4LTJUrxNvYErCqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503762012877-eni1ppr2ask5fefu27btqbj6lkdtj4if.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

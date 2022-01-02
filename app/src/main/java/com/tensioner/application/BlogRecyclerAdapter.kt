@@ -16,14 +16,21 @@ import com.tensioner.application.models.BlogPost
 
 class BlogRecyclerAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>()
 {
+   private lateinit var mListener : onItemClickListener
+   interface onItemClickListener{
+       fun onItemClick(position: Int)
+   }
 
-    private val TAG: String = "AppDebug"
+    fun setOnItemClickListener(listener: onItemClickListener){
+        mListener= listener
+    }
 
     private var items: List<BlogPost> = ArrayList()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         return BlogViewHolder(
-            LayoutInflater.from(parent.context).inflate(R.layout.layout_blog_list_item, parent, false)
+            LayoutInflater.from(parent.context).inflate(R.layout.layout_blog_list_item, parent, false),
+            mListener
         )
     }
 
@@ -31,7 +38,7 @@ class BlogRecyclerAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>()
         when(holder) {
 
             is BlogViewHolder -> {
-                holder.bind(items.get(position))
+                holder.bind(items[position])
             }
 
         }
@@ -47,12 +54,12 @@ class BlogRecyclerAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>()
 
     class BlogViewHolder
     constructor(
-        itemView: View
+        itemView: View,listener: onItemClickListener
     ): RecyclerView.ViewHolder(itemView){
 
-        val blog_image = itemView.findViewById<ImageView>(R.id.blog_image)
-        val blog_title = itemView.findViewById<TextView>(R.id.blog_title)
-        val blog_author = itemView.findViewById<TextView>(R.id.blog_author)
+        private val blog_image: ImageView = itemView.findViewById<ImageView>(R.id.blog_image)
+        private val blog_title: TextView = itemView.findViewById<TextView>(R.id.blog_title)
+        private val blog_author: TextView = itemView.findViewById<TextView>(R.id.blog_author)
 
         fun bind(blogPost: BlogPost){
 
@@ -67,6 +74,12 @@ class BlogRecyclerAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>()
             blog_title.setText(blogPost.title)
             blog_author.setText(blogPost.username)
 
+        }
+
+        init {
+            itemView.setOnClickListener{
+                listener.onItemClick(adapterPosition)
+            }
         }
 
     }
