@@ -76,6 +76,21 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/menu/main.xml" value="0.15925925925925927" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/menu/newsmenu.xml" value="0.184375" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Application/app/src/main/res/menu/top_menu.xml" value="0.25" />
+        <entry key="..\:/Users/shiva/StudioProjects/Android-Demo/app/src/main/res/layout-v26/newslayout.xml" value="0.536" />
+        <entry key="..\:/Users/shiva/StudioProjects/Android-Demo/app/src/main/res/layout-v26/pdflayout.xml" value="0.18342391304347827" />
+        <entry key="..\:/Users/shiva/StudioProjects/Android-Demo/app/src/main/res/layout/activity_message.xml" value="0.18342391304347827" />
+        <entry key="..\:/Users/shiva/StudioProjects/Android-Demo/app/src/main/res/layout/fragment_after_product_page.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/shiva/StudioProjects/Android-Demo/app/src/main/res/layout/fragment_chat.xml" value="0.16" />
+        <entry key="..\:/Users/shiva/StudioProjects/Android-Demo/app/src/main/res/layout/fragment_home_fragment.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/shiva/StudioProjects/Android-Demo/app/src/main/res/layout/fragment_pdf.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/shiva/StudioProjects/Android-Demo/app/src/main/res/layout/fragment_product__description.xml" value="0.18342391304347827" />
+        <entry key="..\:/Users/shiva/StudioProjects/Android-Demo/app/src/main/res/layout/fragment_profile_fregment.xml" value="0.536" />
+        <entry key="..\:/Users/shiva/StudioProjects/Android-Demo/app/src/main/res/layout/newslayout.xml" value="0.18342391304347827" />
+        <entry key="..\:/Users/shiva/StudioProjects/Android-Demo/app/src/main/res/layout/pdflayout.xml" value="0.264" />
+        <entry key="..\:/Users/shiva/StudioProjects/Android-Demo/app/src/main/res/layout/product_fragment.xml" value="0.18342391304347827" />
+        <entry key="..\:/Users/shiva/StudioProjects/Android-Demo/app/src/main/res/layout/userlistlayout.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/shiva/StudioProjects/Android-Demo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.23125" />
+        <entry key="..\:/Users/shiva/StudioProjects/Android-Demo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.23125" />
       </map>
     </option>
   </component>
@@ -88,7 +103,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.9" />
+        <option name="scale" value="0.1" />
       </ProjectState>
     </option>
   </component>

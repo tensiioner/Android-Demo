@@ -143,6 +143,7 @@ class profile_fregment : Fragment() {
                         downloading = false
                         fileDownload++
                     }
+                    cursor.close()
 
                 }
 
@@ -260,7 +261,7 @@ class profile_fregment : Fragment() {
                         item1.setIcon(R.drawable.file_download_done)
                         progress1.visibility= GONE
                         Toast.makeText(
-                            getApplicationContext(),
+                            activity,
                             "Download Completed",
                             Toast.LENGTH_SHORT
                         ).show()

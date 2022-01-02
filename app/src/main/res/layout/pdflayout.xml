@@ -26,19 +26,18 @@
             <TextView
                 android:id="@+id/pdfname"
                 android:layout_width="188dp"
-                android:layout_height="66dp"
-                android:autoSizeMaxTextSize="14dp"
+                android:layout_height="50dp"
+                android:autoSizeMaxTextSize="15dp"
+                android:autoSizeMinTextSize="10dp"
                 android:autoSizeTextType="uniform"
-                android:text="Android.pdf"
                 android:textColor="@color/black"
-                android:textSize="14dp"
                 android:textStyle="bold"
-                app:layout_constrainedWidth="true"
+                android:text="pdf"
+                android:gravity="center"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/pdfdownload"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageButton
                 android:id="@+id/pdfdownload"
@@ -55,6 +54,16 @@
                 app:layout_constraintStart_toEndOf="@+id/pdfname"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/cloud_download" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pdfname" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>

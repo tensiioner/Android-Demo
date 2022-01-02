@@ -7,6 +7,7 @@ import android.os.Handler
 import android.util.Log
 import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AppCompatActivity
+import com.google.firebase.auth.FirebaseAuth
 import com.tensioner.application.Interface.NewsService
 import kotlinx.android.synthetic.main.activity_splash_screen.*
 import retrofit2.Call
@@ -14,6 +15,7 @@ import retrofit2.Callback
 import retrofit2.Response
 
 class splash_screen : AppCompatActivity() {
+    private lateinit var auth: FirebaseAuth
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,6 +23,7 @@ class splash_screen : AppCompatActivity() {
         setContentView(R.layout.activity_splash_screen)
         JavaHelper.printHashKey(this)
         supportActionBar?.hide()
+        auth = FirebaseAuth.getInstance()
         val topAnim = AnimationUtils.loadAnimation(this, R.anim.top_animation)
         val bottomAnim = AnimationUtils.loadAnimation(this, R.anim.bottom_animation)
 
@@ -62,9 +65,16 @@ class splash_screen : AppCompatActivity() {
                     }
                 }
             } else {
-                val intent = Intent(this@splash_screen, MainActivity::class.java)
-                startActivity(intent)
-                finish()
+                if(auth.currentUser!=null){
+                    val intent = Intent(this@splash_screen, AfterLogin::class.java)
+                    startActivity(intent)
+                    finish()
+                }
+                else {
+                    val intent = Intent(this@splash_screen, MainActivity::class.java)
+                    startActivity(intent)
+                    finish()
+                }
             }
         }, 3000)
 

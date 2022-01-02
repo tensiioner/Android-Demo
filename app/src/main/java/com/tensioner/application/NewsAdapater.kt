@@ -83,6 +83,7 @@ class NewsAdapater(val article: List<Article>) : RecyclerView.Adapter<NewsAdapat
             Toast.makeText(holder.itemView.context,article.author,Toast.LENGTH_SHORT).show()
             val intent = Intent(getApplicationContext(),NewsDetails::class.java)
             intent.putExtra("url",article.url)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
             getApplicationContext().startActivity(intent)
 
         }

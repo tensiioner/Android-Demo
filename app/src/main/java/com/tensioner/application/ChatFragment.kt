@@ -3,6 +3,7 @@ package com.tensioner.application
 import android.content.Intent
 import android.os.Bundle
 import android.view.*
+import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.appcompat.app.AppCompatActivity
@@ -33,6 +34,7 @@ class ChatFragment : Fragment() {
     private lateinit var userList: ArrayList<User>
     private lateinit var auth: FirebaseAuth
     private lateinit var Dbref: DatabaseReference
+    private lateinit var userprogress: ProgressBar
     lateinit var menu: Menu
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -50,6 +52,7 @@ class ChatFragment : Fragment() {
         // Inflate the layout for this fragment
         val view: View = inflater.inflate(R.layout.fragment_chat, container, false)
         userchatrecyclerview = view.findViewById(R.id.userchatrecyclerview)
+        userprogress = view.findViewById(R.id.userprogressBar)
         chattoolbar = view.findViewById(R.id.chattoolbar)
         (requireActivity() as AppCompatActivity).setSupportActionBar(chattoolbar)
         setHasOptionsMenu(true)
@@ -72,6 +75,8 @@ class ChatFragment : Fragment() {
 
                 }
                 userAdapter.notifyDataSetChanged()
+                userprogress.visibility = View.GONE
+                userchatrecyclerview.visibility = View.VISIBLE
             }
 
             override fun onCancelled(error: DatabaseError) {

@@ -11,7 +11,7 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/newstoolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:background="@color/purple_700"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
         app:layout_constraintBottom_toTopOf="@+id/progress2"
@@ -20,13 +20,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:title="News">
 
+
     </androidx.appcompat.widget.Toolbar>
 
     <ProgressBar
         android:id="@+id/progress2"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="match_parent"
-        android:layout_height="10dp"
+        android:layout_height="5dp"
         app:layout_constraintBottom_toTopOf="@+id/refresh1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,7 +43,7 @@
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/refresh1"
         android:layout_width="match_parent"
-        android:layout_height="490dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
